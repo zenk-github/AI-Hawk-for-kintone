@@ -1,0 +1,55 @@
+{
+  "manifest_version": 1,
+  "version": 1,
+  "type": "APP",
+  "name": {
+    "ja": "AI-Hawk for kintone",
+    "en": "AI-Hawk for kintone",
+    "zh": "AI-Hawk for kintone",
+    "es": "AI-Hawk for kintone"
+  },
+  "description": {
+    "ja": "これはサンプルプラグインです。",
+    "en": "This is sample plugin.",
+    "zh": "这是插件的例子",
+    "es": "Este es un complemento de ejemplo."
+  },
+  "icon": "image/icon.png",
+  "homepage_url": {
+    "ja": "https://example.com/ja/",
+    "en": "https://example.com/en/",
+    "zh": "https://example.com/zh/",
+    "es": "https://example.com/es/"
+  },
+  "desktop": {
+    "js": [
+      "https://unpkg.com/kintone-ui-component/umd/kuc.min.js",
+      "https://js.cybozu.com/sweetalert2/v11.7.31/sweetalert2.min.js",
+      "https://js.cybozu.com/luxon/3.4.3/luxon.min.js",
+      "js/jquery.min.js",
+      "js/cursor.js",
+      "js/orderForecast.js"
+    ],
+    "css": [
+      "https://js.cybozu.com/sweetalert2/v11.8.0/sweetalert2.min.css"
+    ]
+  },
+  "config": {
+    "html": "html/config.html",
+    "js": [
+        "js/jquery.min.js",
+        "js/jsrender.min.js",
+        "js/config.js"
+    ],
+    "css": [
+        "css/config.css",
+        "css/51-modern-default.css"
+    ],
+    "required_params": [
+        "hawk_api_access_token",
+        "app_id_actual_data",
+        "app_id_order_forecast",
+        "app_id_order_forecast_customer"
+    ]
+}
+}
