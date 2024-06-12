@@ -24,6 +24,8 @@ https://jp.cybozu.help/k/ja/admin/add_plugin/plugin.html
 
 ### 1-5. プラグイン設定
 プラグインの設定画面を開き、内容に沿って各設定項目を指定して下さい。  
+※AI-Hawkアクセストークンについては、AI-Aawkの有償プランの申し込みが必要になります。
+お問い合わせページは [こちら](https://zenk.co.jp/contact/ai-contact-form/) 
 
 ## 2. アプリの使い方
 ### 2-1. 実績データ
